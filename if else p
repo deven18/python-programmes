@@ -1,0 +1,8 @@
+a = float(input(" Please Enter the First Value a: "))
+b = float(input(" Please Enter the Second Value b: "))
+
+if(a == b):
+    print("Both a and b are Equal")
+else:
+    largest = a if a > b else b
+    print("{0} is the Largest Value".format(largest))
